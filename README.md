@@ -1,3 +1,70 @@
-🎓 Information System for Recording Non-formal Education (ISRNE)💡 About the ProjectThe Information System for Recording Non-formal Education (ISRNE) is a desktop application developed to automate the processes of recording, managing, and systematizing data on non-formal education (certificates, courses, training, etc.) within the university environment (specifically NUVGP).The system provides administrators and responsible personnel with an effective tool to maintain a database of achievements by students and staff in the field of non-formal education and generate necessary reports.✨ Key FeaturesUser Authorization: Role-based access control (Administrator, User) to ensure data security.Certificate Management: Functionality for adding, editing, searching, and deleting records of received certificates.Reference Data Management: Creation and management of directories (e.g., course types, disciplines, groups) to standardize data input.Non-formal Education Tracking: Detailed record-keeping of all forms of non-formal education, linked to the individual and date.PDF Integration: Built-in feature (using PdfiumViewer) to display PDF documents (scans of certificates) directly within the application.Query and Reporting: Tools for quick data retrieval and generating customized reports based on various criteria.🛠️ Technology StackCategoryTechnology / ToolPurposeDevelopmentC# (.NET Framework)Primary programming language.User InterfaceWindows Forms (WinForms)Creating the desktop Graphical User Interface (GUI).DatabaseMicrosoft Access (.accdb)Local storage for all accounting and tracking data.LibrariesPdfiumViewerIntegration for viewing PDF files within the application.🚀 Installation and LaunchPrerequisitesWindows Operating System.The required .NET Framework version (must be installed on the machine).Deployment StepsClone the Repository or download the project archive:Bashgit clone https://github.com/YourUsername/YourRepositoryName.git
-cd WFApp_NFE
-Database Setup: Ensure the database file, NFE_db.accdb, is located in the correct directory as specified by the connection string in the application's configuration.Build: Open the solution file (.sln) in Visual Studio and compile the project.Run: Execute the compiled file WFApp_NFE.exe.🔑 Test Credentials (if applicable)The following test credentials may be used to access the system:RoleUsernamePasswordAdministratoradmin1234Useruser1234🤝 AuthorAuthor: Vladyslav LeshchukQualification Work: Bachelor's thesis (2024)University: National University of Water and Environmental Engineering (NUVGP)Contact: [Your Email or Link to LinkedIn/GitHub]
+# 🎓 Information System for Recording Non-formal Education (ISRNE)
+
+### `WFApp_NFE` - Desktop Application for NUVGP
+
+---
+
+## 💡 About the Project
+
+The **Information System for Recording Non-formal Education (ISRNE)** is a robust desktop application designed to streamline the management of non-formal educational achievements (certificates, training, courses, etc.) within the university setting (specifically at NUVGP).
+
+The primary goal of the system is to provide administrative staff with an efficient tool for:
+* Maintaining a comprehensive database of non-formal education achievements.
+* Generating required reports and statistical data.
+* Ensuring standardized and organized data storage.
+
+## ✨ Key Features
+
+| Icon | Feature | Description |
+| :--- | :--- | :--- |
+| 🔑 | **User Authorization** | Secure, role-based access control (Administrator, User) for system integrity. |
+| 📜 | **Certificate Management** | Full CRUD (Create, Read, Update, Delete) functionality for records of received certificates. |
+| 📚 | **Reference Data Management** | Ability to manage standardized directories (disciplines, groups, course types) to maintain data consistency. |
+| 📈 | **Non-formal Education Tracking** | Detailed, structured record-keeping of all forms of non-formal education achievements. |
+| 📄 | **PDF Integration** | Built-in viewer (powered by PdfiumViewer) to display scanned certificates and documents directly within the application. |
+| 🔎 | **Query & Reporting** | Advanced tools for searching, filtering, and generating customized data reports. |
+
+## 🛠️ Technology Stack
+
+The application is built using standard Microsoft technologies for stable, high-performance desktop deployment.
+
+* **Primary Language:** C# (.NET Framework)
+* **User Interface:** Windows Forms (WinForms)
+* **Database:** Microsoft Access (`.accdb`) - used for local, structured data storage.
+* **External Library:** `PdfiumViewer` - integrated for handling and displaying PDF files.
+
+## 🚀 Installation and Launch
+
+### Prerequisites
+
+1.  Windows Operating System.
+2.  The required **.NET Framework** version (installed on the target machine).
+
+### Deployment Steps
+
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/YourUsername/YourRepositoryName.git](https://github.com/YourUsername/YourRepositoryName.git)
+    cd WFApp_NFE
+    ```
+2.  **Database Placement:** Ensure the primary database file, `NFE_db.accdb`, is correctly placed according to the application's configuration path.
+3.  **Build:** Open the solution file (`.sln`) in **Visual Studio** and compile the project to generate the executable files.
+4.  **Run:** Launch the compiled application file, `WFApp_NFE.exe`.
+
+### 🔑 Test Credentials (Example)
+
+| Role | Username | Password |
+| :--- | :--- | :--- |
+| **Administrator** | `admin` | `1234` |
+| **User** | `user` | `1234` |
+
+---
+
+## 🤝 Author
+
+This project was developed as a Bachelor's qualification work.
+
+* **Author:** Vladyslav Leshchuk
+* **Qualification:** Bachelor's Thesis (2024)
+* **University:** National University of Water and Environmental Engineering (НУВГП / NUVGP)
+* **Contact:** vladleshchuk69@gmail.com
