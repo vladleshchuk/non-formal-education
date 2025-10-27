@@ -1,0 +1,18 @@
+# Бінарні файли та папки збірки (типові для .NET/WinForms)
+[Bb]in/
+[Oo]bj/
+*.pdb
+*.user
+*.suo
+
+# Папки пакетів NuGet
+packages/
+
+# База даних (НЕ повинні бути у Git)
+*.accdb
+*.mdb
+NFE_db.accdbaaa.accdb
+
+# Може бути дуже великим, якщо додаток зберігає ресурси
+# Якщо це критичний ресурс, використовуйте Git LFS (див. п. 2)
+# NFE app project/WFApp_NFE/Resources/2.bmp
