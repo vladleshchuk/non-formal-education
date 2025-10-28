@@ -55,8 +55,8 @@ The application is built using standard Microsoft technologies for stable, high-
 
 | Role | Username | Password |
 | :--- | :--- | :--- |
-| **Administrator** | `admin` | `1234` |
-| **User** | `user` | `1234` |
+| **Administrator** | `admin` | `admin` |
+| **or** | `111` | `111` |
 
 ---
 
