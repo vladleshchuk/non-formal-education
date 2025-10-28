@@ -2,6 +2,14 @@
 
 ### `WFApp_NFE` - Desktop Application for NUVGP
 
+## 📚 How to Use non-formal-education
+
+New to this repository? Watch our step-by-step video guide to get started quickly.
+
+[**▶️ Watch the Video Guide on YouTube**]https://youtu.be/Hqtdi1Fu40w
+
+---
+
 ---
 
 ## 💡 About the Project
